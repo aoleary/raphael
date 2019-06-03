@@ -50,4 +50,9 @@
     <string name="quick_settings_tiles_default" translatable="false">
         internet,bt,flashlight,rotation,location,cell,dnd,airplane
     </string>
+
+    <!-- Max visible notification icons -->
+    <integer name="config_maxVisibleNotificationIcons">7</integer>
+    <integer name="config_maxVisibleNotificationIconsWhenDark">8</integer>
+
 </resources>
