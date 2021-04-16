@@ -1,1 +1,4 @@
 allow init property_type:file { append create getattr map open read relabelto rename setattr unlink write };
+
+# sfx boot_debug
+allow init boot_debug:process { noatsecure rlimitinh siginh transition };
