@@ -118,3 +118,7 @@ ro.vendor.qti.va_aosp.support=1
 
 # WiFi
 config.disable_rtt=true
+
+# WiFi Scan Interval (default = 15s)
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.supplicant_scan_interval=600
