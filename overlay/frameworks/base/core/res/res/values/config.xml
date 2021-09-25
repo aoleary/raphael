@@ -610,4 +610,6 @@
     -->
     <string name="config_defaultAutofillService" translatable="false">com.google.android.gms/.autofill.service.AutofillService</string>
 
+    <!-- Whether to disable Night Light feature during UDFPS unlock -->
+    <bool name="config_udfpsDisableNightLight">true</bool>
 </resources>
