@@ -145,6 +145,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 PRODUCT_DEX_PREOPT_DEFAULT_COMPILER_FILTER := verify
 
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI \
+    GoogleDialer
+
 # Display
 TARGET_BOARD_PLATFORM := msmnile
 
