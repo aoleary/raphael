@@ -114,6 +114,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_USES_QCOM_HARDWARE := true
 PRODUCT_BOARD_PLATFORM := msmnile
 
+# Boot animation
+TARGET_SCREEN_HEIGHT := 2340
+TARGET_SCREEN_WIDTH := 1080
+
 # Camera
 PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.motor@1.0.vendor \
