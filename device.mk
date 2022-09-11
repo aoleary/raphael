@@ -431,6 +431,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libwatermark_shim
 
+# SoC
+PROCESSOR_MODEL := SM8150
+
 # Telephony
 PRODUCT_PACKAGES += \
     ims-ext-common \
