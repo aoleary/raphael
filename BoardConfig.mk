@@ -100,6 +100,9 @@ ODM_MANIFEST_FILES += \
 ODM_MANIFEST_SKUS += raphael
 ODM_MANIFEST_RAPHAEL_FILES := $(DEVICE_PATH)/vintf/manifest_nfc.xml
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyMSM0,115200n8 earlycon=msm_geni_serial,0xa90000
 BOARD_KERNEL_CMDLINE += androidboot.hardware=qcom androidboot.console=ttyMSM0
