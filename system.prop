@@ -57,6 +57,10 @@ ro.lmk.log_stats=true
 # Logd buffer size
 ro.logd.size=2M
 
+# LMK tuning
+ro.lmk.filecache_min_kb=153600
+ro.lmk.stall_limit_critical=40
+
 # Media
 av.offload.enable=true
 debug.media.codec2=2 
