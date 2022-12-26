@@ -20,4 +20,8 @@
 
     <!-- Whether Screen Off FOD Working for this Device -->
     <bool name="config_screenOffFodWorking">true</bool>
+
+    <!-- Whether to show min/max refresh rate in display settings -->
+    <bool name="config_show_min_refresh_rate_switch">true</bool>
+
 </resources>
