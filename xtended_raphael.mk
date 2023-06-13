@@ -16,7 +16,7 @@
 $(call inherit-product, device/xiaomi/raphael/device.mk)
 
 # Inherit some common SuperiorOS stuff.
-$(call inherit-product, vendor/superior/config/common.mk)
+$(call inherit-product, vendor/xtended/config/common.mk)
 
 # Maintainer Flag (one word only/no spacing)
 MAINTAINER := ΛＲＣＨＩＴΣＣＴツ(@SageOfD6Path)
@@ -48,7 +48,7 @@ USE_MOTO_CALCULATOR := true
 TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := superior_raphael
+PRODUCT_NAME := xtended_raphael
 PRODUCT_DEVICE := raphael
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := MI 9T Pro
