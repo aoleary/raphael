@@ -385,6 +385,10 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/services/android.hardware.neuralnetworks@1.3-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.neuralnetworks@1.3-service-qti.rc \
     $(LOCAL_PATH)/configs/services/android.hardware.sensors@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.sensors@1.0-service.rc
 
+# Perf
+PRODUCT_PACKAGES += \
+    libqti-perfd-client
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
@@ -573,13 +577,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/permissions/privapp-permissions-parts.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/privapp-permissions-parts.xml
-        
+
 # Adaptive Suspend
 PRODUCT_PROPERTY_OVERRIDES += \
     suspend.short_suspend_threshold_millis=2000 \
     suspend.short_suspend_backoff_enabled=true \
     suspend.max_sleep_time_millis=40000
-
-# Perf
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/perfconfigstore.xml:$(TARGET_COPY_OUT_VENDOR)/etc/perf/perfconfigstore.xml
